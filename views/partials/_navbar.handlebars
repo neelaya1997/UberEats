@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <article class="container toparea">
+        <a class="navbar-brand logos" href="/"><img src="../../images/logo.svg" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                {{#if user}}
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="/auth/logout">Sign Out</a>
+                </li>
+                {{else}}
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="/auth/login">Sign In</a>
+                </li>
+                {{/if}}
+            </ul>
+        </div>
+    </article>
+</nav>

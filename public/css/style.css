@@ -1,0 +1,134 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.toparea {
+  padding: 12px 0px;
+}
+.logos img {
+  margin: 0px -33px;
+}
+/* search areas */
+.img_area {
+  width: 100%;
+  display: flex;
+  z-index: 1;
+  justify-content: space-between !important;
+  position: absolute;
+  background-color: #fa9269;
+}
+.search_area img {
+  height: 415px;
+  width: auto;
+}
+.form_area {
+  clear: both;
+  position: relative;
+  z-index: 2;
+  justify-content: center !important;
+  text-align: center;
+  padding-top: 15%;
+}
+.form_area h1 {
+  font-weight: bold;
+  font-size: xx-large;
+  color: black;
+}
+.form_area_2 {
+  justify-content: center !important;
+}
+.form_area_2 svg {
+  position: absolute;
+  margin-left: -23%;
+}
+.find_food_bar,
+.find_food {
+  border-radius: 0;
+}
+.find_food_bar {
+  width: 550px !important;
+  border: none;
+  padding-left: 40px;
+}
+/* cards */
+.cards_shop {
+  display: flex;
+  margin-top: 1%;
+  margin-left: 1%;
+  clear: both;
+  justify-content: space-around;
+}
+.cards_shop .card {
+  margin-right: 1%;
+  width: 500px !important;
+}
+.cards_shop .card h5 {
+  font-size: 20px;
+}
+
+/* pagenot found */
+.pagenot {
+  justify-content: center !important;
+  text-align: center;
+  align-items: center;
+}
+.pagenot img {
+  width: 500px;
+  position: relative;
+  margin: 0% 30%;
+  margin-top: 7%;
+}
+.pagenot img:hover {
+  background-color: rgba(56, 55, 55, 0.144);
+  box-shadow: 1px 5px 15px gray;
+}
+.viebtn {
+  border-radius: 0;
+  width: 550px;
+  background-color: black;
+  margin: 0 30%;
+}
+.viebtn :hover {
+  background-color: rgba(22, 22, 22, 0.87);
+}
+/* alerts and warns */
+.alert.alert-success {
+  background: #fff;
+  border-left: 10px solid green;
+  width: auto;
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  border-radius: 0;
+  border-right: 0;
+  transform: translate(500px);
+  transition: ease all 0.5s;
+}
+
+.alert.alert-danger {
+  background: #fff;
+  border-left: 10px solid red;
+  width: auto;
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  border-radius: 0;
+  border-right: 0;
+  transform: translate(500px);
+  transition: ease all 0.5s;
+}
+
+.alert.alert-warning {
+  background: #fff;
+  border-left: 10px solid orange;
+  width: auto;
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  border-radius: 0;
+  border-right: 0;
+  transform: translate(500px);
+  transition: ease all 0.5s;
+}
