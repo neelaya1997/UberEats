@@ -132,3 +132,41 @@ body {
   transform: translate(500px);
   transition: ease all 0.5s;
 }
+
+/* footer part */
+footer {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  width: 100%;
+  color: white;
+}
+footer div ul {
+  list-style: none;
+}
+footer div ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer div ul li a:hover {
+  color: rgba(194, 192, 192, 0.685);
+  text-decoration: none;
+}
+footer div ul li a i {
+  font-size: 22px;
+}
+.social {
+  width: 50%;
+}
+.social ul {
+  display: flex;
+}
+.social ul li {
+ padding: 15px 10px;s
+}
+.privacy {
+  width: 50%;
+  text-align: right;
+}
+.privacy p {
+  padding: 15px 20px;
+}
